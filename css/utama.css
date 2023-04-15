@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.nab {
+    height: 80px;
+}
+
+/* jangan di ubah */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.logo {
+     height: 65px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+
+    /* content */
+    .content {
+        width: 500px;
+        margin: 30px;
+    }
+    .content h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        color: #ffffff;
+    }
+    .content p{
+        font-size: 20px;
+        color: #ffffff;
+    }
+    .daftar {
+        margin: 100px 0 0 0;
+    }
+    .daftar ul li a {
+        color: rgb(198, 198, 198);
+        text-decoration: none;
+        border-radius: 20px  ;
+        border: 1px solid rgb(8, 85, 116);
+        padding: 10px;
+    }
+    .daftar ul li a:hover {
+        color: rgb(255, 255, 255);
+        background: rgb(0, 126, 142);
+        transition: all .3s ease-in-out;
+      }
+      
+    .content .daftar ul li{
+        display: inline;
+        padding: 10px;
+    }
+    /* info */
+    .info {
+        background-color: #e4e4e4;
+        padding: 20px;
+        margin: -10px;
+        height: 200px;
+      }
+      .info h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .info p {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .info .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .info .col-4 {
+        width: calc(33.33% - 10px);
+        margin-bottom: 20px;
+      }
+      .info .text-center {
+        text-align: center;
+      }
+      .info .text-right {
+        text-align: right;
+      }
+      .info a {
+        color: #212529;
+        margin-left: 10px;
+      }
+      
+
+
+
+
+
+    /* footer */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+      /* responsif */
+      @media only screen and (max-width: 768px) {
+        .bgg {
+            height: 50vh;
+            margin: -10px;
+        }
+        .logo {
+            height: 40px;
+            }
+            
+            .logo img {
+            height: 100%;
+            }
+            
+
+        
+        /* Navbar */
+        .nab {
+            height: auto;
+        }
+      
+        .navbar {
+            flex-direction: column;
+        }
+      
+        .logo {
+            margin-top: 15px;
+        }
+      
+    
+        /* Content */
+        .content {
+            width: 100%;
+            margin: 30px 0;
+        }
+    
+        .content h1 {
+            font-size: 40px;
+        }
+    
+        .daftar {
+            margin: 30px 0;
+        }
+    
+        .daftar ul li a {
+            padding: 8px;
+            font-size: 14px;
+        }
+    
+        /* Info */
+        .info {
+            height: auto;
+        }
+    
+        .info .row {
+            flex-direction: column;
+        }
+    
+        .info .col-4 {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    
+        .info .text-center {
+            margin-top: 10px;
+        }
+    
+        .info .text-right {
+            margin-top: 10px;
+        }
+    
+        .info a {
+            display: block;
+            margin-top: 10px;
+        }
+    }
+    
