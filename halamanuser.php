@@ -169,7 +169,7 @@
   <div class="togle">
     <button id="toggle-nav"></button>
     <ul class="nav">
-      <li class="nav-item"><a href="hUtama.php" data-title="Home"><i class="fas fa-home"></i></a></li>
+      <li class="nav-item"><a href="index.php" data-title="Home"><i class="fas fa-home"></i></a></li>
       <li class="nav-item"><a href="about.php" data-title="About"><i class="fas fa-user"></i></a></li>
       <li class="nav-item"><a href="contac.php" data-title="Contac"><i class="fas fa-envelope"></i></a></li>
       <li class="nav-item"><a href="login.php" data-title="Login"><i class="fas fa-sign-in-alt"></i></a></li>
