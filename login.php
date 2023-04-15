@@ -171,7 +171,7 @@
           $result = mysqli_query($conn, $sql);
           if (mysqli_num_rows($result) == 1) {
             // login sukses, arahkan ke halaman user
-            header("Location: user/hUtama.php");
+            header("Location: user/index.php");
             exit();
           } else {
             echo "Username atau password salah!";
