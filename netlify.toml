@@ -1,5 +1,0 @@
-
-[[redirects]]
-  from = "/*"
-  to = "index.php"
-  status = 301
